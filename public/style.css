@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+form, #questionList {
+  margin-bottom: 20px;
+}
+
+input[type="text"], textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+canvas {
+  margin: 20px 0;
+}
